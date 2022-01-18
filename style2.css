@@ -1,0 +1,199 @@
+body {
+background: url('books.jpg') no-repeat;
+background-size: cover;
+height: auto;
+}
+/* Strip the ul of padding and list styling */
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: absolute;
+}
+li {
+    display: inline-block;
+    float: left;
+    margin-right: 1px;
+}
+/* Style for menu links */
+li a {
+    display: block;
+    min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background: #DF0174;
+    text-decoration: none;
+}
+/* Hover state for top level links */
+li:hover a {
+    background: #0489B1;
+}
+/* Style for dropdown links */
+li:hover ul li a {
+background: #f3f3f3;
+color: #2f3036;
+height: 40px;
+line-height: 40px;
+}
+/* Hover state for dropdown links */
+li:hover ul li a:hover {
+    background: #0489B1;
+    color: white;
+}
+/* Hide dropdown links until they are needed */
+li ul {
+    display: none;
+}
+/* Make dropdown links vertical */
+li ul li {
+    display: block;
+    float: none;
+}
+/* Prevent text wrapping on dropdown links */
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+/* Display the dropdown links on hover */
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+/* Hide checkbox */
+input[type=checkbox] {
+    display: none;
+}
+/* Show menu when invisible checkbox is checked */
+input[type=checkbox]:checked ~ #menu {
+    display: blocK;
+}
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #DF0174;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+/* Responsive Styles */
+@media screen and(max-width: 760px) {
+    /* Make dropdown links appear links */
+    ul {
+        position: static;
+        display: none;
+    } 
+/* Create vertical spacing */
+li {
+    margin-bottom: 1px;
+}
+/* Make all menu links full width */
+ul li, li a {
+    width: 100%;
+}
+.show-menu {
+    display: block;
+}
+
+body {
+    background-image: none;
+}
+}
+#container {
+    width: 960px;
+    max-width: 99%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+#profil {
+    background-image: url("profil.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-basis: 45vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #df014b;
+    border-radius: 50px;
+    margin-top: 150px;
+    }
+    
+    #text {
+    flex-basis: 45vw;
+    margin-top: 150px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    opacity: 0.6;
+    }
+    
+    #text p {
+    text-align: justify;
+    font-weight: bold;
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
