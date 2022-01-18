@@ -1,0 +1,189 @@
+body {
+    background: url('tusche.jpg') no-repeat;
+    background-size: cover;
+    height: auto;
+    }
+    header { margin-top: 8px;
+        margin-left: 8px;
+}
+    /* Strip the ul of padding and list styling */
+    ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    }
+    li {
+        display: inline-block;
+        float: left;
+        margin-right: 1px;
+    }
+    /* Style for menu links */
+    li a {
+        display: block;
+        min-width: 140px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
+        background: #DF0174;
+        text-decoration: none;
+    }
+    /* Hover state for top level links */
+    li:hover a {
+        background: #0489B1;
+    }
+    /* Style for dropdown links */
+    li:hover ul li a {
+    background: #f3f3f3;
+    color: #2f3036;
+    min-width: 140px;
+    height: 40px;
+    line-height: 40px;
+    }
+    /* Hover state for dropdown links */
+    li:hover ul li a:hover {
+        background: #0489B1;
+        color: white;
+    }
+    /* Hide dropdown links until they are needed */
+    li ul {
+        display: none;
+    }
+    /* Make dropdown links vertical */
+    li ul li {
+        display: block;
+        float: none;
+    }
+    /* Prevent text wrapping on dropdown links */
+    li ul li a {
+        width: auto;
+        min-width: 100px;
+        padding: 0 20px;
+    }
+    /* Display the dropdown links on hover */
+    ul li a:hover + .hidden, .hidden:hover {
+        display: block;
+    }
+    /* Hide checkbox */
+    input[type=checkbox] {
+        display: none;
+    }
+    /* Show menu when invisible checkbox is checked */
+    input[type=checkbox]:checked ~ #menu {
+        display: blocK;
+    }
+    .show-menu {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        color: white;
+        background: #DF0174;
+        text-align: center;
+        padding: 10px 0;
+        display: none;
+    }
+    /* Responsive Styles */
+    @media screen and(max-width: 760px) {
+        /* Make dropdown links appear links */
+        ul {
+            position: static;
+            display: none;
+        } 
+    /* Create vertical spacing */
+    li {
+        margin-bottom: 1px;
+    }
+    /* Make all menu links full width */
+    ul li, li a {
+        width: 100%;
+    }
+    .show-menu {
+        display: block;
+    }
+    
+    body {
+        background-image: none;
+    }
+    }
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+#hero {
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.2), #ffffff), url(tusche.jpg);
+backgrorund-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#hero1 {
+margin-top: 120px;
+margin-left: 
+}
+
+
+.input-group {
+margin-bottom: 30px;
+position: relative;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+outline: 0;
+border: 1px solid #fff;
+color: #fff;
+background: transparent;
+font-size: 15px;
+}
+
+label {
+heigth: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+padding: 10px;
+color: #fff;
+cursor: text;
+transition: 0.2s;
+}
+
+button {
+padding: 10px 0;
+color: #0489B1;
+outline: none;
+background: transparent;
+border: 1px solid #0489B1;
+width: 100%;
+cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+top: -35px;
+font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

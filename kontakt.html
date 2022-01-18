@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Startseite</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+<header>
+   <link rel='stylesheet' href='stylex5.css'/>
+   <label for='show-menu' class='show-menu'>Show Menu</label>
+   <input type="checkbox" id='show-menu' role='button'>
+   <ul id='menu'>
+<li><a href="index.html">Startseite</a></li>
+<li><a href="unterricht.html">Unterricht</a></li>
+<li><a href="informationen.html">Informationen</a></li>
+<li><a tabindex="0 ariacurrent="page">Kontakt</a>
+    <ul class="hidden">
+<li><a href="impressum.html">Impressum</a></li>
+</ul>
+</li>
+</ul>
+</header>
+<body>
+<div id="hero">
+<div id="hero1">
+<form>
+<div class="input-group">
+<form name="contact" action="https://formsubmit.co/ptrojahn2@gmx.de" method="POST">
+<input type="text" name="name" id="name" required>
+<label for="name">Dein Name</label>
+</div>
+<div class="input-group">
+<input type="text" name="phone" id="number" required>
+<label for="number">Telefonnummer</label>
+</div>
+<div class="input-group">
+<input type="email" name="email" id="email" required>
+<label for="email">Email</label>
+</div>
+<div class="input-group">
+<textarea  name="message" id="message" row="8" required></textarea>
+<label for="message">Deine Nachricht</label>
+</div>
+<button type="submit">Abschicken</button>
+</form>
+</div>
+</div>
+</body>
+</html>
