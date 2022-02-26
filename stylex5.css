@@ -111,8 +111,8 @@ body {
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
-}
-
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 
 #hero {
 width: 100%;
@@ -144,6 +144,7 @@ border: 1px solid #fff;
 color: #fff;
 background: transparent;
 font-size: 15px;
+font-family:    
 }
 
 label {
@@ -178,7 +179,6 @@ font-size: 14px;
 #containerx {
     padding-top: 250px;
     text-align: center;
-    font-size: 4em;
     }
 
 
