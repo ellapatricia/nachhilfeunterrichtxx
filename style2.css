@@ -103,11 +103,11 @@ body {
 }
 }
 #container {
-    width: 960px;
-    max-width: 99%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     }
 
@@ -115,23 +115,18 @@ body {
     background-image: url("profil.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    flex-basis: 45vw;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-basis: 350px;
+    height: 330px;
     border: 5px solid #df014b;
     border-radius: 50px;
     margin-top: 150px;
     }
     
     #text {
-    flex-basis: 45vw;
+    flex-basis: 350px;
+    height: 330px;
     margin-top: 150px;
     color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #ffffff;
     opacity: 0.6;
     }
@@ -142,6 +137,8 @@ body {
     }
     
     
+    
+ 
     
     
 
